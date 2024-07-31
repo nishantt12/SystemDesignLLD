@@ -1,0 +1,45 @@
+**Requirements**
+
+1. Read card
+2. Withdraw cash
+3. Check balance
+4. Change pin
+5. Send Money
+6. How much amount currently ATM has
+7. Block card
+8. add money
+
+
+**Objects**
+
+1. Account:
+	- name
+	- id
+	- Available balance
+
+3. Money:
+	- Denominator [500, 100, 2000, 50]
+	- count
+
+4. Card (Card service will fetch all the details)
+	- Card_type : VISA, Master
+	- card_number:
+	- expiry_date
+	- card_pin
+	- isBlocked
+	- Account
+
+**Controllers**
+
+1. ATMController: (addCash, withdrawCash)
+	- List<Money> money
+	- totalAmount
+
+2. CardController: (getCard Details, updateCardDetails, updateAccount)
+
+
+**Classes**
+Try and build by yourself
+
+
+
