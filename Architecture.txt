@@ -1,0 +1,21 @@
+
+
+-- Business: (All business logic)
+    -- Controller
+    -- Config
+    -- service
+    -- Other objects related to Business login
+
+-- Dao: (Database access and transform)
+    -- model (Database model)
+    -- transformer (Business to Database and database to business model)
+    -- mysql
+        --  BasicDaoImpl
+    -- cassandra
+         -- BasicDaoImpl
+    -- BasicDao(Interface)
+
+-- Model
+    -- Business Model
+
+-- MainClass

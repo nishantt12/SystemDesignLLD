@@ -1,0 +1,76 @@
+**Requirements**
+
+1. Create event eg. Room rent, Party etc (Groups)
+2. Send notification
+3. Split amount between users/Groups
+4. How much each person owe from the other person (Main logic) (Balance sheet)
+5. Add Friends
+6. Add friends to groups
+7. Create expense (With and without the group)
+
+
+**Objects**
+- User
+- Group
+- Expense
+- BalanceSheet
+
+
+- User:
+    - Name
+    - id
+    - List<Group>
+    - List<Expense>
+    - BalanceSheet
+
+- Groups
+    - id
+    - name
+    - List<User>
+    - List<Expense>
+    - create expense
+    - update users with balance sheet
+
+- Expense
+    - id
+    - name
+    - total amount
+    - isPending
+
+- BalanceSheet
+    - map: <User, Amount> (Amount can be positive and negative)
+    - totalAmount (positive or negative)
+
+- Split
+    - map: <User, amount>
+
+
+**Classes**
+
+- UserHandler: (All operation in user, update group handler also)
+    - map: <User, List<Group>>
+
+- GroupHandler: (All operation in groups, update user handler also)
+    - map: <Group, List<User>>
+
+- ExpenseHandler:
+    - Create expense for user and group both and update (Group and User model)
+    - Create balance sheet for each user and update
+    - Send notification
+    - Split logic
+    - kisko kisse lene hai
+
+- Split logic:
+    - Equal: total/total users / total user in group
+    - Update balanceSheet of each user with +/-
+
+
+- SplitStrategy (Check again)
+    -getAmountPercentage(int totalAmount: map<User, Percentage>): map<User, amount>
+    -getAmountParticular(int totalAmount: map<User, amount>)
+    - equal(int totalAmount: List<Users>)
+
+
+
+
+
