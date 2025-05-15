@@ -1,0 +1,6 @@
+- Requirements
+    - User can post question
+    - User can answer questions
+    - User can upvote/Downvote
+    - User can approve the Answer
+    - User can add comments

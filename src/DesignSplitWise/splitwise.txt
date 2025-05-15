@@ -42,7 +42,7 @@
     - totalAmount (positive or negative)
 
 - Split
-    - map: <User, amount>
+    -User, amount
 
 
 **Classes**
@@ -69,6 +69,17 @@
     -getAmountPercentage(int totalAmount: map<User, Percentage>): map<User, amount>
     -getAmountParticular(int totalAmount: map<User, amount>)
     - equal(int totalAmount: List<Users>)
+
+
+TODO:
+- Add Splits to expense
+- Validate split in expense controller
+- Split factory to create objects
+- Add percentage in Split
+- No Group in User
+- Adding expense controller in group
+- Adding BalanceSheet controller
+- Use Graph data structure to simplify the Splits
 
 
 

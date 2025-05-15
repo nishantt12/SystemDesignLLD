@@ -1,10 +1,14 @@
 
 
+
+
 -- Business: (All business logic)
     -- Controller
     -- Config
     -- service
     -- Other objects related to Business login
+
+-- Remote
 
 -- Dao: (Database access and transform)
     -- model (Database model)
@@ -19,3 +23,6 @@
     -- Business Model
 
 -- MainClass
+
+
+

@@ -26,7 +26,6 @@ public class WithdrawCashState extends State{
             atm.setAtmBalance(atm.getAtmBalance() - amount);
             card.getAccount().setBalance(card.getAccount().getBalance() - amount);
             System.out.println("Collect cash");
-
         } else {
             System.out.println("ATM doesn't have required amount");
             exit(atm);
