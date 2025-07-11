@@ -1,0 +1,22 @@
+Requirements:
+
+- Different types of coffee
+- Display menu
+- User can pay and machine will provide change
+- Display when ingredient are low
+- Accept multiple user request
+
+
+
+Classes:
+- CoffeeVendingMachine: List<String> coffees, Map<Ingredient, Quantity>
+- abstract Coffee: recipie, Cpachino, Latte, Mocha etc.
+- Coffee factory:
+- Coffee: Will handle making coffee, make payement,
+- CoffeeMachineState
+- Payement, should support different payments
+-//
+- Separate inventory class
+
+
+

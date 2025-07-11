@@ -1,0 +1,17 @@
+- Add money into the wallet
+- Withdraw money from wallet to bank account
+- Transfer money from wallet
+- Pay bills from wallet
+//
+- Add and remove payment methods
+- Transaction history
+
+
+ - User
+ - Wallet
+ - BackAccount
+ - Transaction
+ - Payment
+ -
+
+

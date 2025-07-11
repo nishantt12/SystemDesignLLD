@@ -1,0 +1,10 @@
+
+Main is ALGO
+- LRUCache<T>: addItems(T t), getItem(): T, clearCache(), cacheSize,
+- DoublyLinkedHashMap
+
+addItem: will be the head and check if full then delete the leastRecently item
+getItem: will move to the head
+
+//
+- Take Key and Value

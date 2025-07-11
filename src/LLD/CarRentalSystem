@@ -1,0 +1,19 @@
+- Show different cars with model
+- Search and select car rental from different
+- Should show car rental for a particular city
+- Should be able to add users into the platform
+-
+
+Entities:
+- User
+- abstract Car: id, model, make,
+- CarModel: Sedan, HatchBak, SUV etc
+- CarRentalShowRoom: List<Car> cars, search,
+- CarRentalSystem: List<Users>, Map<City,  List<CarRentalShowRoom>>,
+- Payment
+
+//
+Reservation: Always add in booking
+Inventory:
+
+

@@ -4,3 +4,37 @@
     - User can upvote/Downvote
     - User can approve the Answer
     - User can add comments
+    - User can search
+    - User can add tags
+    - System assign reputation score
+
+
+
+- Model Classes
+    - User
+        -id
+        -name
+        -score
+
+    - Question
+        -id
+        -Title
+        - Description
+        - askedBy: UserId
+        - votes: Int
+        - List<Answers> answers
+
+    - Answer
+        -id
+        -title
+        -description
+        -questionId:
+        -answerBy: UserId
+        - votes: Int
+        - List<Comment>: comments
+
+
+- Business Controller
+    -
+
+

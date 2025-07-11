@@ -1,0 +1,21 @@
+- Show list of items
+- Users can bid
+- User with minimum bid will get
+- Search the list of items
+- ActiveAuctions
+
+
+- User
+- Auction: List<Bid> bids, highestBid: Bid, Item, start and end
+- Bid: Auction, User, Amount
+- Item
+- Payment
+- AuctionSystem: List<Users>, ActiveAuctions, PastAuctions,
+
+
+//
+ScheduledExecutorService
+
+
+//https://github.com/ashishps1/awesome-low-level-design/blob/main/problems/hotel-management-system.md
+

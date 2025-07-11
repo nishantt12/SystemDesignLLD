@@ -1,0 +1,10 @@
+- Publishers and Subscribers
+- Topic
+- Publlisher: Map<Topic, List<Subscribers>>
+- addTopic()
+
+//
+Broker
+Dispatcher
+Topic: will call dispatcher to dispatch message
+Message: Payload

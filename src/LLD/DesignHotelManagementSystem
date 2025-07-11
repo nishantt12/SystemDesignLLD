@@ -1,0 +1,27 @@
+- Search hotels in a city or based on hotel name
+- Book room
+- Check-in, Check-out
+- Payment
+- Show list of hotels
+//
+- Different types of rooms
+- Room availability
+- Management can manage guest info
+
+
+
+- Room: Status
+- RoomType
+- User
+- HotelManagement: List<User>, List<Reservation>, List<Room>,
+- Booking: List<Room> rooms, List<User> guests, User bookedBy, Payment paymentId
+- I: Payment
+- CreditCardPayment
+- Reservation: ReservationStatus, List<Room>,
+
+//
+- how to show available rooms
+- Using map in HotelManagement instead of List
+-
+
+

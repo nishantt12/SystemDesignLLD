@@ -1,0 +1,13 @@
+
+
+Classes:
+- User
+- Task: owner, assignee, due date, priority etc
+- enum TaskStatus
+- Priority ENUM
+- Update Task on action
+- Assign Task to user
+- Filter tasks based on priority
+
+
+- TaskManagement: List<Tasks>, List<User>, Map<User, List<Tasks>>;

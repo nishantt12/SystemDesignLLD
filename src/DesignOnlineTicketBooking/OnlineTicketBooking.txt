@@ -1,0 +1,12 @@
+Classes
+
+- User
+- Booking
+- Event
+- EventType: Enum
+- Payment
+- PaymentTypes: Enum
+- BookingSystem
+- Ticket
+- Seat
+-
